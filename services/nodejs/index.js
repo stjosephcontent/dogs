@@ -1,6 +1,4 @@
 "use strict";
 
-var options = { portnumber : 3456 };
+var options = { portnumber: 8888, log: true };
 require("static-now")(options);
-
-console.log('yeah!');

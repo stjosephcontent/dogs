@@ -1,4 +1,4 @@
-FROM node:4
+FROM node:4-onbuild
 
 MAINTAINER Sean Macdonald <sean.macdonald@stjoseph.com>
 
