@@ -10,6 +10,7 @@
     "slug": "dogs",
     "services": {
         "nodejs": {
+            "build": "services/nodejs",
             "ambassador": true,
             "ports": [8888],
             "volumes": [ "./services/apache/domains/colours/web:/var/www/html", "./logz:/var/log/apache2" ]     
