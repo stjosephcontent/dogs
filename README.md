@@ -1,4 +1,4 @@
 # dogs
 some different dogs
 
-!(dogs.jpg)
+<img src="dogs.jpg" alt="some different dogs" />
