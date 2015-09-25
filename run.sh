@@ -9,6 +9,9 @@ else
     hs="soft"
 fi
 
+echo $hs
+
+
 bash $DIR/stop.sh
 
 for service in $services; do
