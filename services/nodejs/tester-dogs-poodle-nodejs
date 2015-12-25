@@ -1,6 +1,0 @@
-docker: "rm" requires a minimum of 1 argument.
-See 'docker rm --help'.
-
-Usage:	docker rm [OPTIONS] CONTAINER [CONTAINER...]
-
-Remove one or more containers
