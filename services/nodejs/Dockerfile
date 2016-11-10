@@ -1,6 +1,6 @@
-FROM node:4
+FROM node:7
 
-MAINTAINER Sean Macdonald <sean.macdonald@stjoseph.com>
+MAINTAINER Sean Macdonald <sean@crazyhorsecoding.com>
 
 #	bootstrap
 RUN mkdir -p /usr/src/app
@@ -11,7 +11,7 @@ COPY ./ /usr/src/app/
 WORKDIR /usr/src/app
 
 #	Orchestra
-LABEL io.sjc.orchestra.version="0.0.1"
+LABEL io.gourd.hak.version="1.0.5"
 
 CMD ["npm","start"]
 EXPOSE 8888
